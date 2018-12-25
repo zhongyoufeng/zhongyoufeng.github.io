@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>钟优锋简历</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<link rel="shortcut icon" href="images/favicon.png">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700%7cOswald:400,700" rel="stylesheet">
+		<link rel="icon" href="images/top.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/simpletextrotator.css">
+		<script src="js/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="frontpage">
+			<div class="shadow-img"></div><img src="images/front-image.jpg" class="front-img img-responsive" alt="Front-image">
+			<h1>一只<span class="invert" style="font-size:15px">前端</span></h1>
+			<h3 class="invert" style="margin-top: -10px; margin-bottom: 10px;">Web<span class="rotate">程序猿</span></h3>
+			<div class="frontclick"><img src="images/click.png" alt="" class="img-responsive"><span class="pulse"></span></div>
+		</div>
+		<div class="container">
+			<div id="content" class="row hidden">
+				<div class="col-sm-4">
+					<div id="namecard" class="namecard">
+						<div class="shadow-img"></div>
+						<h1 class="maintitle">一只<span class="invert"></span></h1>
+						<h3 class="invert sub-maintitle">Web<span class="rotate">前端程序猿</span></h3><img id="profile-img" class="profile-img transparent"
+						 src="images/profile-thum.png" alt="profile-image">
+					</div>
+					<div id="menu-container">
+						<ul class="nav-menu no-padding">
+							<li class="nav-btn selected" title="Home" data-page="home">
+								<div class="hover-background"></div><span>我的概况</span><i class="fa fa-user fa-fw"></i>
+							</li>
+							<li class="nav-btn" id="resume-btn" title="Resume" data-page="resume">
+								<div class="hover-background"></div><span>自我介绍</span><i class="fa fa-file-text fa-fw"></i>
+							</li>
+							<li class="nav-btn folio-btn" data-filter="*" title="Portfolio" data-page="portfolio">
+								<div class="hover-background"></div><span>项目展示</span><i class="fa fa-suitcase fa-fw"></i>
+							</li>
+							<li class="nav-btn" title="Contact" id="contact-link" data-page="contact">
+								<div class="hover-background"></div><span>与我联系</span><i class="fa fa-paper-plane fa-fw"></i>
+							</li>
+						</ul>
+						<div class="social-menu-container">
+							<ul class="social-menu no-padding">
+								<li><a href=""><i class="fa fa-qq"></i></a></li>
+								<li><a href=""><i class="fa fa-wechat"></i></a></li>
+								<li><a href=""><i class="fa fa-github"></i></a></li>
+								<li><a href=""><i class="fa fa-weibo"></i></a></li>
+								<li><a href=""><i class="fa fa-share"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8 page-segment">
+					<ul class="page-container no-padding">
+						<li id="home" class="selected">
+							<div class="title-container hidden">
+								<div class="shadow-img"></div>
+								<h2 class="rotate-out">欢迎浏览<span class="invert">我的个人简历</span></h2>
+							</div>
+							<div class="description hidden">
+								<div class="watermark-home"></div>
+								<div class="fade-text">
+									<div class="strong-text">我是：<span>钟优锋</span></div>
+									<div class="focus-text"><span>web前端工程师</span><span>&amp;H5开发者</span></div>
+									<p class="large-paragraph">从大学开始接触前端开发，毕业后正式成为一只前端开发程序猿，快乐的码代码。有着轻微代码强迫症，对代码整洁异常敏感。有着较高的工作热情，能够克服工作中的压力。喜欢专研新事物，热爱前端开发事业。</p>
+								</div>
+								<h3 class="personal-info-title title">个人信息</h3>
+								<ul class="personal-info">
+									<li class="rotate-out"><label>姓名</label><span>钟优锋</span></li>
+									<li class="rotate-out"><label>年龄</label><span>24岁</span></li>
+									<li class="rotate-out"><label>邮箱</label><span>zhongyoufeng@126.com</span></li>
+									<li class="rotate-out"><label>手机号</label><span>15770652330</span></li>
+								</ul>
+							</div>
+						</li>
+						<li id="resume" class="hidden">
+							<div class="title-container">
+								<div class="shadow-img"></div>
+								<h2 class="rotate-out rotated"><span class="invert">我的</span> 自我介绍</h2>
+							</div>
+							<div class="description">
+								<div class='tabs tabs_animate'>
+									<ul class='horizontal no-padding'>
+										<li><a href="#tab-1" class="icon-bg icon-skills">
+												<div>技能展示</div>
+											</a></li>
+										<li><a href="#tab-2" class="icon-bg icon-education">
+												<div>教育背景</div>
+											</a></li>
+										<li><a href="#tab-3" class="icon-bg icon-employment">
+												<div>工作经验</div>
+											</a></li>
+									</ul>
+									<div id='tab-1'>
+										<h3 class="title">我的技能</h3>
+										<ul class="skills-list no-padding">
+											<li class="row">
+												<div class="col-xs-2">
+													<div class="fw-mid">React</div>
+												</div>
+												<div class="col-xs-9">
+													<div class="bar">
+														<div class="percentage" id="bar1" style="width: 70%;"></div>
+													</div>
+												</div>
+											</li>
+											<li class="row">
+												<div class="col-xs-2">
+													<div class="fw-mid">Vue</div>
+												</div>
+												<div class="col-xs-9">
+													<div class="bar">
+														<div class="percentage" id="bar2" style="width: 85%;"></div>
+													</div>
+												</div>
+											</li>
+											<li class="row">
+												<div class="col-xs-2">
+													<div class="fw-mid">Javascript</div>
+												</div>
+												<div class="col-xs-9">
+													<div class="bar">
+														<div class="percentage" id="bar3" style="width: 95%;"></div>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<div class="circle-skill-container">
+											<h3 class="title">其他技能</h3>
+											<div class="row">
+												<div class="col-xs-4 center-align">
+													<div class="circle-bar" id="line-container1">
+														<div class="progressbar-text" id="progress-text1">0</div>
+													</div>
+													<h5>jQuery/Zepto</h5>
+												</div>
+												<div class="col-xs-4 center-align">
+													<div class="circle-bar" id="line-container2">
+														<div class="progressbar-text" id="progress-text2">0</div>
+													</div>
+													<h5>Photoshop</h5>
+												</div>
+												<div class="col-xs-4 center-align">
+													<div class="circle-bar" id="line-container3">
+														<div class="progressbar-text" id="progress-text3">0</div>
+													</div>
+													<h5>HTML+CSS</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div id='tab-2'>
+										<h3 class="title">教育背景</h3>
+										<ul class="education-class">
+											<li class="current">
+												<h4 class="title">我的大学<i class="fa fa-sort-desc pull-right"></i></h4>
+												<div class="list-content">
+													<h5 class="title">新余学院<span class="list-year">(2012 - 2015)</span></h5>
+													<p>专业：计算机科学技术</p>
+													<p>大学课程：c语言，java,c++,mysql数据库，计算机网络原理，前端，Photoshop等等。</p>
+													<p>大学项目：图书管理系统（前端：jQuery后台：java+Struts+Tomcat）、院系精品课程网站（前端：jQuery,后台：java+spring+Tomcat）</p>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div id='tab-3'>
+										<h3 class="title">工作经历</h3>
+										<ul class="employment-class tab-cont">
+											<li>
+												<h4>前端开发工程师<span class="year">2015.07 - 2017.05</span></h4>
+												<h5>杭州鼎易信息科技有限公司</h5>
+												<p>负责项目前端页面的构建，pc 端的页面布局及响应式开发，参与移动端项目开发，根 据每个版本的需求进行版本更新，高度还原 UI 界面，项目后期迭代维护工作</p>
+											</li>
+											<li>
+												<h4>前端开发工程师<span class="year">2017.06 -2018.12</span></h4>
+												<h5>杭州雍享网络科技有限公司</h5>
+												<p>完成前端页面的构建，对已有的项目进行更新迭代，维护。完成前端项目的性能优化， 代码优化，参与 PC 端项目开发，更新、迁移前后端不分离项目。配合后端开发者实现整个项目产品的上线。及时处 理反馈的问题及代码的
+													bug 的修复。</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li id="portfolio" class="hidden">
+							<div class="title-container">
+								<div class="shadow-img"></div>
+								<h2 class="rotate-out rotated">项目展示</h2>
+							</div>
+							<div class="abs-child">
+								<ul class="button-group filters-button-group">
+									<li class="button is-checked" data-filter="*">所有项目</li>
+									<li class="button" data-filter=".photography">PC端</li>
+									<li class="button" data-filter=".commercial">微信/小程序</li>
+									<li class="button" data-filter=".potrait">移动App</li>
+								</ul>
+							</div>
+							<div class="sec-porfolio description">
+								<div class="row">
+									<div class="folio-container">
+										<ul class="folio-item">
+											<li class="view view-first photography"><img src="images/folio/1.jpg" alt="logs" />
+												<div class="mask">
+													<h2>新时代官网</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-first photography"><img src="images/folio/2.jpg" alt="book" />
+												<div class="mask"></div>
+												<div class="content">
+													<h2>新光圆成品牌官网</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-first photography"><img src="images/folio/3.jpg" alt="beach" />
+												<div class="mask">
+													<h2>行地集团官网</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-first photography"><img src="images/folio/4.jpg" alt="guy" />
+												<div class="mask"></div>
+												<div class="content">
+													<h2>控智家官网</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-first photography"><img src="images/folio/5.jpg" alt="illustration" />
+												<div class="mask">
+													<h2>浙江二轻工业官网</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-tenth potrait"><img src="images/folio/6.jpg" alt="guy" />
+												<div class="mask"></div>
+												<div class="content">
+													<h2>51美淘WebApp</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-tenth potrait"><img src="images/folio/7.jpg" alt="logs" />
+												<div class="mask">
+													<h2>爱可信全球购WebApp</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-tenth potrait"><img src="images/folio/8.jpg" alt="beach" />
+												<div class="mask">
+													<h2>约跑APP</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-tenth potrait"><img src="images/folio/9.jpg" alt="beach" />
+												<div class="mask">
+													<h2>简视APP</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-tenth commercial"><img src="images/folio/11.jpg" alt="beach" />
+												<div class="mask">
+													<h2>喜万购微信公众号</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-tenth commercial"><img src="images/folio/12.jpg" alt="beach" />
+												<div class="mask">
+													<h2>房团网微信公众号</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-tenth commercial"><img src="images/folio/15.jpg" alt="beach" />
+												<div class="mask">
+													<h2>海南食品微信公众号</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-first photography"><img src="images/folio/16.png" alt="beach" />
+												<div class="mask">
+													<h2>时刻邮平台</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+											<li class="view view-tenth potrait"><img src="images/folio/18.jpg" alt="beach" />
+												<div class="mask">
+													<h2>赢之道金融App</h2><a role="button" class="info" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li id="contact" class="hidden">
+							<div class="title-container">
+								<div class="shadow-img"></div>
+								<h2 class="rotate-out rotated">与我联系</h2>
+							</div>
+							<div class="description">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="map-container">
+											<div id="map" style="width:100%;height:325px;"></div>
+										</div>
+									</div>
+									<div class="col-sm-5">
+										<h3 class="title">联系方式</h3>
+										<h6 class="sm-title"><span class="address-icon"><i class="fa fa-map-marker"></i></span>现居地：深圳宝安</h6>
+										<h6 class="sm-title"><span class="address-icon"><i class="fa fa-phone"></i></span>15770652330</h6>
+										<h6 class="sm-title"><span class="address-icon"><i class="fa fa-envelope"></i></span>zhongyoufeng@126.com</h6>
+									</div>
+									<div class="col-sm-7">
+										<div class="mail-container">
+											<div class="cnmail result">
+												<div class="msg success-msg"><i class="icon svg-check"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+														 xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+															<path d="M16 2.688c-7.375 0-13.313 5.938-13.313 13.313s5.938 13.313 13.313 13.313c7.375 0 13.313-5.938 13.313-13.313s-5.938-13.313-13.313-13.313zM16 28.25c-6.75 0-12.25-5.5-12.25-12.25s5.5-12.25 12.25-12.25c6.75 0 12.25 5.5 12.25 12.25s-5.5 12.25-12.25 12.25zM22.688 11.25l-8.563 8.313-3-3c-0.313-0.313-0.813-0.313-1.125 0s-0.313 0.813 0 1.125l3.563 3.563c0.125 0.125 0.313 0.188 0.563 0.188 0.188 0 0.375-0.063 0.5-0.188l9.125-8.875c0.375-0.313 0.375-0.813 0.063-1.125s-0.813-0.313-1.125 0z"></path>
+														</svg></i><span> 给我留言</span></div>
+												<div class="msg error-msg"><i class="icon svg-close-circle"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+														 xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+															<path d="M6.563 6.563c-5.188 5.188-5.188 13.688 0 18.875s13.688 5.188 18.875 0c5.188-5.188 5.188-13.625 0-18.875-5.188-5.188-13.625-5.188-18.875 0zM24.688 24.688c-4.813 4.75-12.563 4.75-17.375 0-4.75-4.813-4.75-12.563 0-17.375 4.813-4.75 12.563-4.75 17.375 0 4.75 4.813 4.75 12.563 0 17.375zM10.75 10l-0.813 0.75 5.313 5.25-5.25 5.25 0.75 0.75 5.25-5.25 5.25 5.25 0.75-0.75-5.25-5.25 5.313-5.25-0.813-0.75-5.25 5.25z"></path>
+														</svg></i><span> Sorry!</span></div>
+											</div>
+											<h3 class="title invert">给我留言</h3>
+											<form action="sendmail.php" class="form-horizontal" id="contact-form">
+												<div class="form-group"><input name="name" class="form-control required" placeholder="姓名" data-placement="top"
+													 type="text"></div>
+												<div class="form-group"><input name="email" class="form-control email" placeholder="邮箱" type="text"></div>
+												<div class="form-group"><textarea name="message" class="form-control" placeholder="信息" rows="3"></textarea>
+												</div>
+												<div class="form-group"><button type="submit" class="btn btn-success">发送</button></div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="row mobile-nav-container">
+						<ul class="mobile-social no-padding">
+							<li>与我联系</li>
+							<li><a href=""><i class="fa fa-qq"></i></a></li>
+							<li><a href=""><i class="fa fa-wechat"></i></a></li>
+							<li><a href=""><i class="fa fa-github"></i></a></li>
+							<li><a href=""><i class="fa fa-weibo"></i></a></li>
+							<li><a href=""><i class="fa fa-share"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tlinks"></div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							 aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">了解我更多</h4>
+					</div>
+					<div class="modal-body"><img src="images/folio/logs.jpg" class="img-responsive" alt="modal-image"></div>
+					<div class="modal-footer">
+						<div class="mf-content">
+							<p>姓名：钟优锋</p>
+							<p>邮箱：zhongyoufeng@126.com</p>
+							<p>联系方式：15770652330</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="subscribe_modal_1" tabindex="-1" role="dialog" aria-labelledby="subscribe_modal_1"
+		 aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							 aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title">谢谢您</h2>
+					</div>
+					<div class="modal-body">
+						<div class="text-center mail-sucsess">
+							<h3><span>您的留言已发送。</span></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jQueryTween-aio-min.js"></script>
+		<script type="text/javascript" src="js/jquery.tabslet.min.js"></script>
+		<script type="text/javascript" src="js/progressbar.min.js"></script>
+		<script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4IU3oIAMpZhfWZsMu7xzqBBAf6vMHcoa"></script>
+		<script type="text/javascript" src='js/isotope.pkgd.min.js'></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+	</body>
+</html>
