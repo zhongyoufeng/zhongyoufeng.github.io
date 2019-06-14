@@ -3,10 +3,9 @@
 
 	var mapLoaded = false,
 		map;
-	/*---------------Google Maps Scripts-------------------------*/
 	function initMap() {
 		var map = new BMap.Map("map"); // 创建地图实例  
-		var point = new BMap.Point(113.90	, 22.578); // 创建点坐标  
+		var point = new BMap.Point(113.90, 22.578); // 创建点坐标  
 		map.centerAndZoom(point, 15);
 		map.enableScrollWheelZoom(true);
 	}
