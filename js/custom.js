@@ -1,6 +1,4 @@
 (function($) {
-	"use strict";
-
 	var mapLoaded = false,
 		map;
 	function initMap() {
